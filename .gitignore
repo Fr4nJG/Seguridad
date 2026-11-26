@@ -1,0 +1,33 @@
+# Credenciales y configuración local
+.env
+.env.*
+*.key
+*.pem
+config.local.php
+
+# Dependencias
+node_modules/
+vendor/
+venv/
+
+# Temporales y caché
+*.log
+*.tmp
+.cache/
+
+# Binarios y compilados
+*.exe
+*.dll
+*.class
+dist/
+build/
+
+# Bases de datos locales
+*.sqlite
+*.db
+
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
